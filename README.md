@@ -2,8 +2,6 @@
 
 A comprehensive web application for tracking personal finances, managing budgets, and visualizing spending patterns. This frontend React application provides an intuitive interface for managing your financial data.
 
-![Personal Finance Tracker](https://imgur.com/a/6nDfzyH)
-
 ## Features
 
 - **Dashboard** - Overview of spending trends, recent transactions, and budget status

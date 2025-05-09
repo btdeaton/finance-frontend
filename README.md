@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+# Personal Finance Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive web application for tracking personal finances, managing budgets, and visualizing spending patterns. This frontend React application provides an intuitive interface for managing your financial data.
 
-## Available Scripts
+![Personal Finance Tracker](https://imgur.com/a/6nDfzyH)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Dashboard** - Overview of spending trends, recent transactions, and budget status
+- **Transactions** - Add, edit, and delete financial transactions
+- **Categories** - Organize transactions by customizable categories
+- **Budgets** - Create and manage budgets for different expense categories
+- **Reports** - Visual analytics of spending patterns and financial health
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React 
+- Material UI
+- Recharts (for data visualization)
+- Axios (for API communications)
+- React Router (for navigation)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v16.x or later)
+- npm or yarn
+- Access to the [Personal Finance API](http://localhost:8000/docs) (FastAPI backend)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/personal-finance-tracker.git
+   cd personal-finance-tracker
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-### `npm run eject`
+3. Create a `.env` file in the root directory with the following variables:
+   ```
+   REACT_APP_API_URL=http://localhost:8000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. The application will be available at `http://localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## API Backend
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This frontend application requires the Personal Finance API to function properly. The API provides data storage, authentication, and business logic.
 
-## Learn More
+- **API Documentation**: View the FastAPI Swagger documentation at [http://localhost:8000/docs](http://localhost:8000/docs)
+- **Default API URL**: http://localhost:8000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For information on setting up the API, please follow the instructions in the [Personal Finance API repository](https://github.com/yourusername/personal-finance-api).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Authentication
 
-### Code Splitting
+The application uses JWT token-based authentication. When logging in, the user receives a token that is stored in localStorage and attached to subsequent API requests via an Authorization header.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Structure
 
-### Analyzing the Bundle Size
+```
+personal-finance-tracker/
+├── public/              # Static files
+├── src/                 # Source code
+│   ├── api/             # API client configuration and service modules
+│   ├── components/      # Reusable UI components
+│   ├── contexts/        # React contexts (auth, etc.)
+│   ├── pages/           # Page components
+│   └── App.js           # Main application component
+└── package.json         # Project dependencies and scripts
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Known Issues
 
-### Making a Progressive Web App
+- The application currently has a timezone issue when creating transactions. The API expects dates in UTC format.
+- When adding transactions, the form may occasionally report an error even when the transaction is successfully created. This is being addressed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Troubleshooting
 
-### Advanced Configuration
+### API Connection Issues
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+If you encounter API connection issues:
 
-### Deployment
+1. Ensure the backend API is running at `http://localhost:8000`
+2. Check that CORS is properly configured on the backend
+3. Verify that your authentication token is valid
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Date Handling Errors
 
-### `npm run build` fails to minify
+If you encounter errors when creating transactions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+Error: can't compare offset-naive and offset-aware datetimes
+```
+
+This is related to how the API handles date formats. As a workaround, ensure that you're sending the date in the ISO format without timezone information.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- [Material UI](https://mui.com/) for the UI components
+- [Recharts](https://recharts.org/) for data visualization
+- [FastAPI](https://fastapi.tiangolo.com/) for the backend API framework

@@ -9,6 +9,7 @@ import Transactions from './pages/Transactions';
 import Categories from './pages/Categories';
 import Budgets from './pages/Budgets';
 import Reports from './pages/Reports';
+import SimpleTransaction from './pages/SimpleTransaction';
 
 // Protected route component
 const ProtectedRoute = ({ children }) => {
@@ -58,6 +59,12 @@ function App() {
           <Route path="/reports" element={
             <ProtectedRoute>
               <Reports />
+            </ProtectedRoute>
+          } />
+
+          <Route path="/simple-transaction" element={
+            <ProtectedRoute>
+              <SimpleTransaction />
             </ProtectedRoute>
           } />
         </Routes>

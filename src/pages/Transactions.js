@@ -7,7 +7,7 @@ import {
   InputLabel, IconButton, Typography, Box, CircularProgress,
   Snackbar, Alert
 } from '@mui/material';
-import { Add as AddIcon, Edit as EditIcon, Delete as DeleteIcon } from '@mui/icons-material';
+import { Add as AddIcon, Edit as EditIcon, Delete as DeleteIcon, Refresh as RefreshIcon } from '@mui/icons-material';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
@@ -44,12 +44,37 @@ const Transactions = () => {
   const fetchTransactions = async () => {
     try {
       setLoading(true);
-      const response = await getTransactions();
-      setTransactions(response.data);
-      setError(null);
+      setError(null); // Clear any previous errors
+      
+      // Add exponential backoff retry logic
+      let attempt = 0;
+      const maxAttempts = 3;
+      let success = false;
+      let lastError = null;
+      
+      while (attempt < maxAttempts && !success) {
+        try {
+          const response = await getTransactions();
+          setTransactions(response.data);
+          success = true;
+        } catch (err) {
+          lastError = err;
+          console.error(`Attempt ${attempt + 1} failed:`, err);
+          // Wait longer between each retry
+          await new Promise(resolve => setTimeout(resolve, 1000 * Math.pow(2, attempt)));
+          attempt++;
+        }
+      }
+      
+      if (!success) {
+        throw lastError || new Error('Failed after multiple attempts');
+      }
     } catch (err) {
-      console.error('Failed to fetch transactions', err);
+      console.error('Failed to fetch transactions after retries', err);
       setError('Failed to load transactions. Please try again.');
+      // Don't clear existing transactions data if we already had some
+      // This way the user can still see previous data even if refresh fails
+      //setTransactions([]);
     } finally {
       setLoading(false);
     }
@@ -59,6 +84,14 @@ const Transactions = () => {
     try {
       const response = await getCategories();
       setCategories(response.data);
+      
+      // If we have categories and no selected category in form, default to first category
+      if (response.data.length > 0 && !formData.category_id) {
+        setFormData(prevData => ({
+          ...prevData,
+          category_id: response.data[0].id
+        }));
+      }
     } catch (err) {
       console.error('Failed to fetch categories', err);
       // We don't set error here as transactions are the primary data
@@ -81,7 +114,7 @@ const Transactions = () => {
       setFormData({
         amount: '',
         description: '',
-        category_id: '',
+        category_id: categories.length > 0 ? categories[0].id : '',  // Default to first category if available
         date: new Date()
       });
     }
@@ -96,7 +129,7 @@ const Transactions = () => {
     const { name, value } = e.target;
     setFormData(prevData => ({
       ...prevData,
-      [name]: value
+      [name]: name === 'category_id' || name === 'amount' ? Number(value) : value
     }));
   };
 
@@ -108,10 +141,30 @@ const Transactions = () => {
   };
 
   const handleSubmit = async () => {
+    // Basic validation
+    if (!formData.amount || !formData.description || !formData.category_id) {
+      setSnackbar({
+        open: true,
+        message: 'Please fill in all required fields',
+        severity: 'error'
+      });
+      return;
+    }
+  
     try {
+      // Prepare data for API - convert types and format date properly
+      const dataToSend = {
+        amount: Number(formData.amount),
+        description: formData.description,
+        category_id: Number(formData.category_id),
+        date: formData.date ? formData.date.toISOString() : null
+      };
+  
+      console.log('Sending transaction data:', dataToSend);
+  
       if (selectedTransaction) {
         // Update existing transaction
-        await updateTransaction(selectedTransaction.id, formData);
+        await updateTransaction(selectedTransaction.id, dataToSend);
         setSnackbar({
           open: true,
           message: 'Transaction updated successfully',
@@ -119,20 +172,35 @@ const Transactions = () => {
         });
       } else {
         // Create new transaction
-        await createTransaction(formData);
-        setSnackbar({
-          open: true,
-          message: 'Transaction created successfully',
-          severity: 'success'
-        });
+        try {
+          await createTransaction(dataToSend);
+          setSnackbar({
+            open: true,
+            message: 'Transaction created successfully',
+            severity: 'success'
+          });
+        } catch (createError) {
+          console.error('Transaction creation error but might have succeeded:', createError);
+          // Transaction might have been created despite the error
+          // Show a warning instead of error
+          setSnackbar({
+            open: true,
+            message: 'Transaction may have been created, but there was an error in the response. Refreshing data...',
+            severity: 'warning'
+          });
+        }
       }
       handleClose();
-      fetchTransactions(); // Refresh the list
+      
+      // Refresh the list with a small delay to ensure database consistency
+      setTimeout(() => {
+        fetchTransactions();
+      }, 500);
     } catch (err) {
       console.error('Failed to save transaction', err);
       setSnackbar({
         open: true,
-        message: 'Failed to save transaction. Please try again.',
+        message: `Failed to save transaction: ${err.response?.data?.detail || err.message}`,
         severity: 'error'
       });
     }
@@ -157,7 +225,7 @@ const Transactions = () => {
       console.error('Failed to delete transaction', err);
       setSnackbar({
         open: true,
-        message: 'Failed to delete transaction. Please try again.',
+        message: `Failed to delete transaction: ${err.response?.data?.detail || err.message}`,
         severity: 'error'
       });
     }
@@ -201,7 +269,21 @@ const Transactions = () => {
 
   return (
     <Layout title="Transactions">
-      <Box mb={3} display="flex" justifyContent="flex-end">
+      <Box mb={3} display="flex" justifyContent="space-between" alignItems="center">
+        {/* Left side - refresh button (only shown if we have transactions) */}
+        <Box>
+          {transactions.length > 0 && (
+            <Button 
+              onClick={fetchTransactions}
+              startIcon={<RefreshIcon />}
+              variant="outlined"
+            >
+              Refresh
+            </Button>
+          )}
+        </Box>
+        
+        {/* Right side - add transaction button */}
         <Button 
           variant="contained" 
           startIcon={<AddIcon />}
@@ -210,7 +292,7 @@ const Transactions = () => {
           Add Transaction
         </Button>
       </Box>
-
+  
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
@@ -268,6 +350,8 @@ const Transactions = () => {
               inputProps={{ step: "0.01", min: "0" }}
               value={formData.amount}
               onChange={handleChange}
+              error={formData.amount === ''}
+              helperText={formData.amount === '' ? 'Amount is required' : ''}
             />
             <TextField
               margin="normal"
@@ -277,8 +361,10 @@ const Transactions = () => {
               name="description"
               value={formData.description}
               onChange={handleChange}
+              error={formData.description === ''}
+              helperText={formData.description === '' ? 'Description is required' : ''}
             />
-            <FormControl fullWidth margin="normal">
+            <FormControl fullWidth margin="normal" error={!formData.category_id}>
               <InputLabel>Category</InputLabel>
               <Select
                 name="category_id"
@@ -292,21 +378,34 @@ const Transactions = () => {
                   </MenuItem>
                 ))}
               </Select>
+              {!formData.category_id && (
+                <Typography variant="caption" color="error">
+                  Category is required
+                </Typography>
+              )}
             </FormControl>
             <LocalizationProvider dateAdapter={AdapterDateFns}>
               <DatePicker 
                 label="Date"
                 value={formData.date}
                 onChange={handleDateChange}
-                renderInput={(params) => <TextField {...params} fullWidth margin="normal" />}
-                slotProps={{ textField: { fullWidth: true, margin: 'normal' } }}
+                slotProps={{ 
+                  textField: { 
+                    fullWidth: true, 
+                    margin: 'normal' 
+                  } 
+                }}
               />
             </LocalizationProvider>
           </Box>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>
-          <Button onClick={handleSubmit} variant="contained">
+          <Button 
+            onClick={handleSubmit} 
+            variant="contained"
+            disabled={!formData.amount || !formData.description || !formData.category_id}
+          >
             {selectedTransaction ? 'Update' : 'Create'}
           </Button>
         </DialogActions>

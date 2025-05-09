@@ -1,0 +1,1469 @@
+2025-05-08 11:43:01,806 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-08 11:43:01,806 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-08 11:43:01,807 - app.main - INFO - Response status: 200
+2025-05-08 11:43:01,807 - app.main - INFO - Response status: 200
+2025-05-08 11:43:01,813 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 11:43:01,814 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 11:43:01,820 - app.main - INFO - Response status: 401
+2025-05-08 11:43:01,820 - app.main - INFO - Response status: 401
+2025-05-08 11:43:05,413 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 11:43:05,415 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 11:43:05,418 - app.main - INFO - Response status: 401
+2025-05-08 11:43:05,419 - app.main - INFO - Response status: 401
+2025-05-08 11:43:06,738 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:43:06,739 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:43:06,740 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 11:43:06,740 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 11:43:06,740 - app.main - INFO - Response status: 200
+2025-05-08 11:43:06,741 - app.main - INFO - Response status: 200
+2025-05-08 11:43:06,742 - app.main - INFO - Response status: 200
+2025-05-08 11:43:06,742 - app.main - INFO - Response status: 200
+2025-05-08 11:43:06,751 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 11:43:06,751 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:06,751 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 11:43:06,752 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:06,756 - app.main - INFO - Response status: 401
+2025-05-08 11:43:06,756 - app.main - INFO - Response status: 401
+2025-05-08 11:43:06,757 - app.main - INFO - Response status: 401
+2025-05-08 11:43:06,757 - app.main - INFO - Response status: 401
+2025-05-08 11:43:07,671 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:07,672 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:07,674 - app.main - INFO - Response status: 401
+2025-05-08 11:43:07,674 - app.main - INFO - Response status: 401
+2025-05-08 11:43:14,275 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-08 11:43:14,276 - app.main - INFO - Response status: 200
+2025-05-08 11:43:14,402 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-08 11:43:14,420 - app.main - INFO - Response status: 200
+2025-05-08 11:43:24,869 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-08 11:43:25,091 - app.main - INFO - Response status: 200
+2025-05-08 11:43:25,118 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 11:43:25,119 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 11:43:25,130 - app.main - INFO - Response status: 200
+2025-05-08 11:43:25,132 - app.main - INFO - Response status: 200
+2025-05-08 11:43:27,205 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 11:43:27,205 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 11:43:27,207 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:27,207 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:27,217 - app.main - INFO - Response status: 200
+2025-05-08 11:43:27,217 - app.main - INFO - Response status: 200
+2025-05-08 11:43:27,219 - app.main - INFO - Response status: 200
+2025-05-08 11:43:27,219 - app.main - INFO - Response status: 200
+2025-05-08 11:43:28,022 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:28,023 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:28,029 - app.main - INFO - Response status: 200
+2025-05-08 11:43:28,029 - app.main - INFO - Response status: 200
+2025-05-08 11:43:29,804 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 11:43:29,805 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:29,806 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 11:43:29,806 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:43:29,814 - app.main - INFO - Response status: 200
+2025-05-08 11:43:29,814 - app.main - INFO - Response status: 200
+2025-05-08 11:43:29,815 - app.main - INFO - Response status: 200
+2025-05-08 11:43:29,815 - app.main - INFO - Response status: 200
+2025-05-08 11:43:43,046 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:43:43,047 - app.main - INFO - Response status: 200
+2025-05-08 11:43:43,049 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 11:43:43,052 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 11:43:44,252 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:43:44,253 - app.main - INFO - Response status: 200
+2025-05-08 11:43:44,255 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 11:43:44,258 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 11:48:29,741 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:48:29,742 - app.main - INFO - Response status: 200
+2025-05-08 11:48:29,744 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 11:48:29,747 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 11:48:30,599 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:48:30,599 - app.main - INFO - Response status: 200
+2025-05-08 11:48:30,601 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 11:48:30,604 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 11:48:31,421 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:48:31,422 - app.main - INFO - Response status: 200
+2025-05-08 11:48:31,425 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 11:48:31,428 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 11:55:08,903 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-08 11:55:08,903 - app.main - INFO - Response status: 200
+2025-05-08 11:55:08,910 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 11:55:08,927 - app.main - INFO - Response status: 200
+2025-05-08 11:55:08,929 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 11:55:08,934 - app.main - INFO - Response status: 200
+2025-05-08 11:55:26,880 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:55:26,881 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:55:26,882 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 11:55:26,882 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 11:55:26,882 - app.main - INFO - Response status: 200
+2025-05-08 11:55:26,883 - app.main - INFO - Response status: 200
+2025-05-08 11:55:26,884 - app.main - INFO - Response status: 200
+2025-05-08 11:55:26,884 - app.main - INFO - Response status: 200
+2025-05-08 11:55:26,892 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 11:55:26,893 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 11:55:26,893 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:55:26,893 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:55:26,902 - app.main - INFO - Response status: 200
+2025-05-08 11:55:26,902 - app.main - INFO - Response status: 200
+2025-05-08 11:55:26,902 - app.main - INFO - Response status: 200
+2025-05-08 11:55:26,904 - app.main - INFO - Response status: 200
+2025-05-08 11:55:40,622 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:55:40,623 - app.main - INFO - Response status: 200
+2025-05-08 11:55:40,626 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 11:55:40,629 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 11:55:43,912 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 11:55:43,913 - app.main - INFO - Response status: 200
+2025-05-08 11:55:43,915 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 11:55:43,918 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 11:57:25,238 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:57:25,241 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:57:25,247 - app.main - INFO - Response status: 200
+2025-05-08 11:57:25,248 - app.main - INFO - Response status: 200
+2025-05-08 11:57:31,104 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 11:57:31,105 - app.main - INFO - Response status: 200
+2025-05-08 11:57:31,108 - app.main - INFO - Request: POST http://localhost:8000/categories/
+2025-05-08 11:57:31,119 - app.main - INFO - Response status: 200
+2025-05-08 11:57:31,126 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 11:57:31,129 - app.main - INFO - Response status: 200
+2025-05-08 12:00:57,200 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 12:00:57,201 - app.main - INFO - Response status: 200
+2025-05-08 12:00:57,209 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 12:00:57,212 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 12:21:20,753 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-08 12:21:20,754 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-08 12:21:20,754 - app.main - INFO - Response status: 200
+2025-05-08 12:21:20,755 - app.main - INFO - Response status: 200
+2025-05-08 12:21:20,758 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 12:21:20,759 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 12:21:20,764 - app.main - INFO - Response status: 401
+2025-05-08 12:21:20,765 - app.main - INFO - Response status: 401
+2025-05-08 12:21:22,525 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 12:21:22,525 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 12:21:22,527 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 12:21:22,527 - app.main - INFO - Response status: 200
+2025-05-08 12:21:22,528 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 12:21:22,528 - app.main - INFO - Response status: 200
+2025-05-08 12:21:22,529 - app.main - INFO - Response status: 200
+2025-05-08 12:21:22,529 - app.main - INFO - Response status: 200
+2025-05-08 12:21:22,531 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 12:21:22,532 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:22,534 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 12:21:22,534 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:22,536 - app.main - INFO - Response status: 401
+2025-05-08 12:21:22,536 - app.main - INFO - Response status: 401
+2025-05-08 12:21:22,538 - app.main - INFO - Response status: 401
+2025-05-08 12:21:22,538 - app.main - INFO - Response status: 401
+2025-05-08 12:21:23,317 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:23,318 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:23,320 - app.main - INFO - Response status: 401
+2025-05-08 12:21:23,320 - app.main - INFO - Response status: 401
+2025-05-08 12:21:29,947 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-08 12:21:30,181 - app.main - INFO - Response status: 200
+2025-05-08 12:21:30,210 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 12:21:30,212 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 12:21:30,222 - app.main - INFO - Response status: 200
+2025-05-08 12:21:30,224 - app.main - INFO - Response status: 200
+2025-05-08 12:21:32,331 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 12:21:32,333 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:32,335 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 12:21:32,336 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:32,343 - app.main - INFO - Response status: 200
+2025-05-08 12:21:32,347 - app.main - INFO - Response status: 200
+2025-05-08 12:21:32,349 - app.main - INFO - Response status: 200
+2025-05-08 12:21:32,350 - app.main - INFO - Response status: 200
+2025-05-08 12:21:33,752 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:33,754 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:33,760 - app.main - INFO - Response status: 200
+2025-05-08 12:21:33,761 - app.main - INFO - Response status: 200
+2025-05-08 12:21:34,970 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 12:21:34,971 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:34,975 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:21:34,977 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 12:21:34,980 - app.main - INFO - Response status: 200
+2025-05-08 12:21:34,981 - app.main - INFO - Response status: 200
+2025-05-08 12:21:34,985 - app.main - INFO - Response status: 200
+2025-05-08 12:21:34,986 - app.main - INFO - Response status: 200
+2025-05-08 12:21:54,308 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 12:21:54,308 - app.main - INFO - Response status: 200
+2025-05-08 12:21:54,311 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 12:21:54,316 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 12:21:55,634 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 12:21:55,635 - app.main - INFO - Response status: 200
+2025-05-08 12:21:55,638 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 12:21:55,641 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 12:26:22,691 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 12:26:22,713 - app.main - INFO - Response status: 200
+2025-05-08 12:26:22,733 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 12:26:22,742 - app.main - INFO - Response status: 200
+2025-05-08 12:27:07,393 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 12:27:07,394 - app.main - INFO - Response status: 200
+2025-05-08 12:27:07,396 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:27:07,400 - app.main - INFO - Response status: 200
+2025-05-08 12:27:07,401 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 12:27:07,405 - app.main - INFO - Response status: 200
+2025-05-08 12:27:14,412 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 12:27:14,412 - app.main - INFO - Response status: 200
+2025-05-08 12:27:14,414 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 12:27:14,418 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 12:27:16,115 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 12:27:16,116 - app.main - INFO - Response status: 200
+2025-05-08 12:27:16,118 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 12:27:16,123 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 12:27:17,362 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 12:27:17,363 - app.main - INFO - Response status: 200
+2025-05-08 12:27:17,365 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 12:27:17,368 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 14:10:01,931 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-08 14:10:01,931 - app.main - INFO - Response status: 200
+2025-05-08 14:10:02,152 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-08 14:10:02,185 - app.main - INFO - Response status: 200
+2025-05-08 14:10:42,573 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:42,573 - app.main - INFO - Response status: 200
+2025-05-08 14:10:42,577 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:42,582 - app.main - INFO - Response status: 401
+2025-05-08 14:10:42,588 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:42,590 - app.main - INFO - Response status: 401
+2025-05-08 14:10:43,745 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:10:43,746 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:10:43,747 - app.main - INFO - Response status: 200
+2025-05-08 14:10:43,747 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 14:10:43,748 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 14:10:43,748 - app.main - INFO - Response status: 200
+2025-05-08 14:10:43,749 - app.main - INFO - Response status: 200
+2025-05-08 14:10:43,749 - app.main - INFO - Response status: 200
+2025-05-08 14:10:43,752 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:10:43,754 - app.main - INFO - Response status: 401
+2025-05-08 14:10:43,755 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:10:43,756 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:10:43,757 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:10:43,760 - app.main - INFO - Response status: 401
+2025-05-08 14:10:43,760 - app.main - INFO - Response status: 401
+2025-05-08 14:10:43,761 - app.main - INFO - Response status: 401
+2025-05-08 14:10:44,480 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:10:44,480 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:10:44,482 - app.main - INFO - Response status: 401
+2025-05-08 14:10:44,482 - app.main - INFO - Response status: 401
+2025-05-08 14:10:45,497 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:45,497 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:45,500 - app.main - INFO - Response status: 401
+2025-05-08 14:10:45,501 - app.main - INFO - Response status: 401
+2025-05-08 14:10:52,307 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-08 14:10:52,530 - app.main - INFO - Response status: 200
+2025-05-08 14:10:52,553 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:52,555 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:52,566 - app.main - INFO - Response status: 200
+2025-05-08 14:10:52,568 - app.main - INFO - Response status: 200
+2025-05-08 14:10:58,546 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:10:58,548 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:10:58,550 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:10:58,550 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:10:58,560 - app.main - INFO - Response status: 200
+2025-05-08 14:10:58,562 - app.main - INFO - Response status: 200
+2025-05-08 14:10:58,563 - app.main - INFO - Response status: 200
+2025-05-08 14:10:58,563 - app.main - INFO - Response status: 200
+2025-05-08 14:10:59,580 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:59,582 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:10:59,587 - app.main - INFO - Response status: 200
+2025-05-08 14:10:59,591 - app.main - INFO - Response status: 200
+2025-05-08 14:12:47,913 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:12:47,914 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:12:47,935 - app.main - INFO - Response status: 200
+2025-05-08 14:12:47,938 - app.main - INFO - Response status: 200
+2025-05-08 14:12:49,631 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-08 14:12:49,631 - app.main - INFO - Response status: 200
+2025-05-08 14:12:49,756 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-08 14:12:49,774 - app.main - INFO - Response status: 200
+2025-05-08 14:15:12,838 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:15:12,847 - app.main - INFO - Response status: 200
+2025-05-08 14:15:14,896 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 14:15:14,901 - app.main - ERROR - Request failed: can't compare offset-naive and offset-aware datetimes
+2025-05-08 14:28:50,589 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-08 14:28:50,590 - app.main - INFO - Response status: 200
+2025-05-08 14:28:50,597 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:28:50,611 - app.main - INFO - Response status: 200
+2025-05-08 14:28:50,613 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:28:50,618 - app.main - INFO - Response status: 200
+2025-05-08 14:28:53,739 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:28:53,740 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 14:28:53,741 - app.main - INFO - Response status: 200
+2025-05-08 14:28:53,741 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:28:53,741 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 14:28:53,742 - app.main - INFO - Response status: 200
+2025-05-08 14:28:53,743 - app.main - INFO - Response status: 200
+2025-05-08 14:28:53,743 - app.main - INFO - Response status: 200
+2025-05-08 14:28:53,746 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:28:53,748 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:28:53,748 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:28:53,750 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:28:53,758 - app.main - INFO - Response status: 200
+2025-05-08 14:28:53,759 - app.main - INFO - Response status: 200
+2025-05-08 14:28:53,760 - app.main - INFO - Response status: 200
+2025-05-08 14:28:53,761 - app.main - INFO - Response status: 200
+2025-05-08 14:29:26,449 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:29:26,450 - app.main - INFO - Response status: 200
+2025-05-08 14:29:26,452 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-08 14:29:26,456 - app.routes.transactions - INFO - Creating transaction: {'amount': 97.52, 'description': 'GameStop', 'category_id': 1, 'date': datetime.datetime(2025, 5, 8, 18, 28, 54, 718000)}
+2025-05-08 14:29:26,456 - app.routes.transactions - INFO - User ID: 1
+2025-05-08 14:29:26,463 - app.routes.transactions - INFO - Transaction created with ID: 1
+2025-05-08 14:29:26,465 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response',), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB88385F0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:13,841 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:30:13,848 - app.main - INFO - Response status: 200
+2025-05-08 14:30:13,851 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:30:13,857 - app.main - INFO - Response status: 200
+2025-05-08 14:30:16,634 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:16,637 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:16,640 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:16,640 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:16,641 - app.main - INFO - Response status: 200
+2025-05-08 14:30:16,641 - app.main - INFO - Response status: 200
+2025-05-08 14:30:16,643 - app.main - INFO - Response status: 200
+2025-05-08 14:30:16,646 - app.main - INFO - Response status: 200
+2025-05-08 14:30:16,647 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:16,648 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:16,653 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB89C1E50>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:16,653 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB89C14F0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:18,357 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:18,357 - app.main - INFO - Response status: 200
+2025-05-08 14:30:18,362 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:18,366 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB89C3890>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:19,866 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:19,867 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:19,869 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:19,869 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:19,870 - app.main - INFO - Response status: 200
+2025-05-08 14:30:19,871 - app.main - INFO - Response status: 200
+2025-05-08 14:30:19,874 - app.main - INFO - Response status: 200
+2025-05-08 14:30:19,875 - app.main - INFO - Response status: 200
+2025-05-08 14:30:19,880 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:19,880 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:19,885 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB87F6480>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:19,885 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB880E3C0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:21,654 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:21,654 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:21,658 - app.main - INFO - Response status: 200
+2025-05-08 14:30:21,660 - app.main - INFO - Response status: 200
+2025-05-08 14:30:22,358 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:22,360 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:22,365 - app.main - INFO - Response status: 200
+2025-05-08 14:30:22,367 - app.main - INFO - Response status: 200
+2025-05-08 14:30:22,369 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:22,370 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:22,370 - app.main - INFO - Response status: 200
+2025-05-08 14:30:22,371 - app.main - INFO - Response status: 200
+2025-05-08 14:30:22,380 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:22,380 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:22,385 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB89C04A0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:22,385 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB87A4CB0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:23,225 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:30:23,226 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:30:23,234 - app.main - INFO - Response status: 200
+2025-05-08 14:30:23,234 - app.main - INFO - Response status: 200
+2025-05-08 14:30:27,339 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:27,340 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:27,345 - app.main - INFO - Response status: 200
+2025-05-08 14:30:27,346 - app.main - INFO - Response status: 200
+2025-05-08 14:30:27,352 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:27,353 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:27,353 - app.main - INFO - Response status: 200
+2025-05-08 14:30:27,354 - app.main - INFO - Response status: 200
+2025-05-08 14:30:27,362 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:27,362 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:27,366 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB89EB890>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:27,366 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB89E90A0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:34,889 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-08 14:30:35,106 - app.main - INFO - Response status: 200
+2025-05-08 14:30:35,133 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:30:35,134 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:30:35,141 - app.main - INFO - Response status: 200
+2025-05-08 14:30:35,142 - app.main - INFO - Response status: 200
+2025-05-08 14:30:36,470 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:36,471 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:30:36,478 - app.main - INFO - Response status: 200
+2025-05-08 14:30:36,478 - app.main - INFO - Response status: 200
+2025-05-08 14:30:36,479 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:36,480 - app.main - INFO - Response status: 200
+2025-05-08 14:30:36,481 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:30:36,482 - app.main - INFO - Response status: 200
+2025-05-08 14:30:36,483 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:36,484 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:30:36,488 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB87A5310>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:30:36,497 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001DDB8A01A30>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:35,651 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-08 14:54:35,652 - app.main - INFO - Response status: 200
+2025-05-08 14:54:35,656 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:54:35,675 - app.main - INFO - Response status: 200
+2025-05-08 14:54:35,678 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-08 14:54:35,687 - app.main - INFO - Response status: 200
+2025-05-08 14:54:42,645 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:42,646 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:42,647 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 14:54:42,647 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-08 14:54:42,647 - app.main - INFO - Response status: 200
+2025-05-08 14:54:42,648 - app.main - INFO - Response status: 200
+2025-05-08 14:54:42,648 - app.main - INFO - Response status: 200
+2025-05-08 14:54:42,648 - app.main - INFO - Response status: 200
+2025-05-08 14:54:42,658 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:42,659 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:42,659 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:54:42,660 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-08 14:54:42,669 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A789640>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:42,670 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A7AC260>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:42,691 - app.main - INFO - Response status: 200
+2025-05-08 14:54:42,691 - app.main - INFO - Response status: 200
+2025-05-08 14:54:43,689 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:43,689 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:43,690 - app.main - INFO - Response status: 200
+2025-05-08 14:54:43,690 - app.main - INFO - Response status: 200
+2025-05-08 14:54:43,692 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:43,693 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:43,696 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A7AEF90>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:43,697 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A7AE5A0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:45,710 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:45,710 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:45,712 - app.main - INFO - Response status: 200
+2025-05-08 14:54:45,712 - app.main - INFO - Response status: 200
+2025-05-08 14:54:45,715 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:45,715 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:45,720 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A90FD10>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:45,727 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A90FEF0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:52,169 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:52,169 - app.main - INFO - Response status: 200
+2025-05-08 14:54:52,172 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:52,174 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A90EC60>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:53,190 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:53,190 - app.main - INFO - Response status: 200
+2025-05-08 14:54:53,192 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:53,195 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A9234D0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:55,205 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:54:55,207 - app.main - INFO - Response status: 200
+2025-05-08 14:54:55,209 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:54:55,213 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A90EBA0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:54:59,999 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:55:00,000 - app.main - INFO - Response status: 200
+2025-05-08 14:55:00,004 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:55:00,008 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A90F530>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:55:01,022 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:55:01,023 - app.main - INFO - Response status: 200
+2025-05-08 14:55:01,024 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:55:01,027 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A90C650>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:55:03,034 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:55:03,034 - app.main - INFO - Response status: 200
+2025-05-08 14:55:03,037 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:55:03,039 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A75AA50>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:55:08,130 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:55:08,130 - app.main - INFO - Response status: 200
+2025-05-08 14:55:08,133 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:55:08,136 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A7596A0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:55:09,147 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:55:09,148 - app.main - INFO - Response status: 200
+2025-05-08 14:55:09,150 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:55:09,153 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A75A870>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:55:11,165 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:55:11,166 - app.main - INFO - Response status: 200
+2025-05-08 14:55:11,168 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:55:11,171 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A75AE40>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-08 14:55:41,371 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-08 14:55:41,372 - app.main - INFO - Response status: 200
+2025-05-08 14:55:41,374 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-08 14:55:41,377 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000022E2A733560>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:40:01,591 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 08:40:01,592 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 08:40:01,593 - app.main - INFO - Response status: 200
+2025-05-09 08:40:01,594 - app.main - INFO - Response status: 200
+2025-05-09 08:40:01,598 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:40:01,600 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:40:01,619 - app.main - INFO - Response status: 401
+2025-05-09 08:40:01,620 - app.main - INFO - Response status: 401
+2025-05-09 08:40:04,783 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:04,784 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:40:04,784 - app.main - INFO - Response status: 200
+2025-05-09 08:40:04,785 - app.main - INFO - Response status: 200
+2025-05-09 08:40:04,788 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:40:04,788 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:04,790 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:04,791 - app.main - INFO - Response status: 200
+2025-05-09 08:40:04,791 - app.main - INFO - Response status: 200
+2025-05-09 08:40:04,793 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:04,795 - app.main - INFO - Response status: 401
+2025-05-09 08:40:04,797 - app.main - INFO - Response status: 401
+2025-05-09 08:40:04,798 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:04,799 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:04,801 - app.main - INFO - Response status: 401
+2025-05-09 08:40:04,801 - app.main - INFO - Response status: 401
+2025-05-09 08:40:05,814 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:05,814 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:05,816 - app.main - INFO - Response status: 401
+2025-05-09 08:40:05,816 - app.main - INFO - Response status: 401
+2025-05-09 08:40:08,104 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 08:40:08,105 - app.main - INFO - Response status: 200
+2025-05-09 08:40:08,203 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 08:40:08,223 - app.main - INFO - Response status: 200
+2025-05-09 08:40:08,224 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:08,224 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:08,227 - app.main - INFO - Response status: 401
+2025-05-09 08:40:08,227 - app.main - INFO - Response status: 401
+2025-05-09 08:40:10,525 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:10,526 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:10,527 - app.main - INFO - Response status: 401
+2025-05-09 08:40:10,529 - app.main - INFO - Response status: 401
+2025-05-09 08:40:12,303 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:12,304 - app.main - INFO - Response status: 401
+2025-05-09 08:40:12,781 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:12,782 - app.main - INFO - Response status: 401
+2025-05-09 08:40:16,560 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 08:40:16,561 - app.main - INFO - Response status: 200
+2025-05-09 08:40:16,640 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 08:40:16,641 - app.main - INFO - Response status: 200
+2025-05-09 08:40:22,834 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 08:40:22,834 - app.main - INFO - Response status: 200
+2025-05-09 08:40:22,949 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 08:40:22,950 - app.main - INFO - Response status: 200
+2025-05-09 08:40:25,828 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:25,831 - app.main - INFO - Response status: 401
+2025-05-09 08:40:33,360 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-09 08:40:33,600 - app.main - INFO - Response status: 200
+2025-05-09 08:40:33,626 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:40:33,628 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:40:33,641 - app.main - INFO - Response status: 200
+2025-05-09 08:40:33,641 - app.main - INFO - Response status: 200
+2025-05-09 08:40:36,457 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:36,458 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:36,467 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:36,467 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:36,470 - app.main - INFO - Response status: 200
+2025-05-09 08:40:36,470 - app.main - INFO - Response status: 200
+2025-05-09 08:40:36,475 - app.main - INFO - Response status: 200
+2025-05-09 08:40:36,475 - app.main - INFO - Response status: 200
+2025-05-09 08:40:38,985 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:38,989 - app.main - INFO - Response status: 200
+2025-05-09 08:40:48,849 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:48,850 - app.main - INFO - Response status: 200
+2025-05-09 08:40:48,853 - app.main - INFO - Request: POST http://localhost:8000/transactions/
+2025-05-09 08:40:48,857 - app.routes.transactions - INFO - Creating transaction: {'amount': 100.0, 'description': 'Monopoly', 'category_id': 1, 'date': datetime.datetime(2025, 5, 9, 12, 40, 40, 437000)}
+2025-05-09 08:40:48,857 - app.routes.transactions - INFO - User ID: 1
+2025-05-09 08:40:48,859 - app.routes.transactions - INFO - Transaction object created: {'_sa_instance_state': <sqlalchemy.orm.state.InstanceState object at 0x0000012F5943B1D0>, 'amount': 100.0, 'description': 'Monopoly', 'category_id': 1, 'date': datetime.datetime(2025, 5, 9, 12, 40, 40, 437000), 'user_id': 1}
+2025-05-09 08:40:48,867 - app.routes.transactions - INFO - Transaction created with ID: 2
+2025-05-09 08:40:48,868 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response',), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F5936EC30>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:40:49,380 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:49,380 - app.main - INFO - Response status: 200
+2025-05-09 08:40:49,383 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:49,387 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F59456F60>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:40:50,492 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:50,493 - app.main - INFO - Response status: 200
+2025-05-09 08:40:50,497 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:50,500 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F59589280>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:40:52,508 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:52,508 - app.main - INFO - Response status: 200
+2025-05-09 08:40:52,510 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:52,513 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F595891C0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:40:56,470 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:56,471 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:56,476 - app.main - INFO - Response status: 200
+2025-05-09 08:40:56,477 - app.main - INFO - Response status: 200
+2025-05-09 08:40:57,523 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:57,524 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:40:57,528 - app.main - INFO - Response status: 200
+2025-05-09 08:40:57,529 - app.main - INFO - Response status: 200
+2025-05-09 08:40:57,539 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:57,539 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:57,540 - app.main - INFO - Response status: 200
+2025-05-09 08:40:57,540 - app.main - INFO - Response status: 200
+2025-05-09 08:40:57,548 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:57,548 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:57,553 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F59454200>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:40:57,553 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F59588470>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:40:58,459 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:40:58,459 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:40:58,467 - app.main - INFO - Response status: 200
+2025-05-09 08:40:58,467 - app.main - INFO - Response status: 200
+2025-05-09 08:40:58,565 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:58,565 - app.main - INFO - Response status: 200
+2025-05-09 08:40:58,567 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:58,570 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F5936F5F0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:40:58,581 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:40:58,582 - app.main - INFO - Response status: 200
+2025-05-09 08:40:58,585 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:40:58,588 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F5936E480>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:41:00,582 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:00,582 - app.main - INFO - Response status: 200
+2025-05-09 08:41:00,584 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:41:00,587 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F59455FA0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:41:00,598 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:00,598 - app.main - INFO - Response status: 200
+2025-05-09 08:41:01,740 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:41:01,741 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:41:01,745 - app.main - INFO - Response status: 200
+2025-05-09 08:41:01,747 - app.main - INFO - Response status: 200
+2025-05-09 08:41:01,749 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:01,750 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:01,750 - app.main - INFO - Response status: 200
+2025-05-09 08:41:01,751 - app.main - INFO - Response status: 200
+2025-05-09 08:41:04,793 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:04,794 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:04,794 - app.main - INFO - Response status: 200
+2025-05-09 08:41:04,795 - app.main - INFO - Response status: 200
+2025-05-09 08:41:04,798 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:41:04,799 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:41:04,803 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F595A4380>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:41:04,803 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F595A5A00>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:41:05,760 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:05,761 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:05,769 - app.main - INFO - Response status: 200
+2025-05-09 08:41:05,769 - app.main - INFO - Response status: 200
+2025-05-09 08:41:06,555 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:06,557 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:06,557 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:06,558 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:06,558 - app.main - INFO - Response status: 200
+2025-05-09 08:41:06,558 - app.main - INFO - Response status: 200
+2025-05-09 08:41:06,559 - app.main - INFO - Response status: 200
+2025-05-09 08:41:06,559 - app.main - INFO - Response status: 200
+2025-05-09 08:41:09,617 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:41:09,617 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:41:09,618 - app.main - INFO - Response status: 401
+2025-05-09 08:41:09,619 - app.main - INFO - Response status: 401
+2025-05-09 08:41:14,993 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-09 08:41:15,191 - app.main - INFO - Response status: 200
+2025-05-09 08:41:15,219 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:15,220 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:15,227 - app.main - INFO - Response status: 200
+2025-05-09 08:41:15,228 - app.main - INFO - Response status: 200
+2025-05-09 08:41:17,428 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:17,431 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:17,431 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:17,432 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:17,432 - app.main - INFO - Response status: 200
+2025-05-09 08:41:17,432 - app.main - INFO - Response status: 200
+2025-05-09 08:41:17,433 - app.main - INFO - Response status: 200
+2025-05-09 08:41:17,433 - app.main - INFO - Response status: 200
+2025-05-09 08:41:17,439 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:41:17,453 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F595D8D40>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:41:24,500 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:24,501 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:24,501 - app.main - INFO - Response status: 200
+2025-05-09 08:41:24,501 - app.main - INFO - Response status: 200
+2025-05-09 08:41:25,859 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:25,860 - app.main - INFO - Response status: 200
+2025-05-09 08:41:35,937 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 08:41:35,938 - app.main - INFO - Response status: 200
+2025-05-09 08:41:36,024 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 08:41:36,025 - app.main - INFO - Response status: 200
+2025-05-09 08:41:40,326 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:40,327 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:40,327 - app.main - INFO - Response status: 200
+2025-05-09 08:41:40,327 - app.main - INFO - Response status: 200
+2025-05-09 08:41:40,334 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:40,335 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:40,341 - app.main - INFO - Response status: 200
+2025-05-09 08:41:40,342 - app.main - INFO - Response status: 200
+2025-05-09 08:41:41,801 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:41,801 - app.main - INFO - Response status: 200
+2025-05-09 08:41:41,806 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:41,818 - app.main - INFO - Response status: 200
+2025-05-09 08:41:50,340 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-09 08:41:50,537 - app.main - INFO - Response status: 200
+2025-05-09 08:41:50,561 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:50,563 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:41:50,571 - app.main - INFO - Response status: 200
+2025-05-09 08:41:50,572 - app.main - INFO - Response status: 200
+2025-05-09 08:41:52,518 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:52,519 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:52,520 - app.main - INFO - Response status: 200
+2025-05-09 08:41:52,520 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:41:52,520 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:41:52,521 - app.main - INFO - Response status: 200
+2025-05-09 08:41:52,521 - app.main - INFO - Response status: 200
+2025-05-09 08:41:52,521 - app.main - INFO - Response status: 200
+2025-05-09 08:41:52,524 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:41:52,539 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x0000012F5958B8F0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:46:42,128 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 08:46:42,129 - app.main - INFO - Response status: 200
+2025-05-09 08:46:42,241 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 08:46:42,259 - app.main - INFO - Response status: 200
+2025-05-09 08:47:12,218 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:47:12,219 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:47:12,241 - app.main - INFO - Response status: 200
+2025-05-09 08:47:12,241 - app.main - INFO - Response status: 200
+2025-05-09 08:49:32,320 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 08:49:32,322 - app.main - INFO - Response status: 200
+2025-05-09 08:49:32,456 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 08:49:32,474 - app.main - INFO - Response status: 200
+2025-05-09 08:49:50,441 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:49:50,441 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:49:50,461 - app.main - INFO - Response status: 200
+2025-05-09 08:49:50,462 - app.main - INFO - Response status: 200
+2025-05-09 08:49:52,959 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 08:49:52,961 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:49:52,961 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:49:52,961 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 08:49:52,962 - app.main - INFO - Response status: 200
+2025-05-09 08:49:52,962 - app.main - INFO - Response status: 200
+2025-05-09 08:49:52,963 - app.main - INFO - Response status: 200
+2025-05-09 08:49:52,963 - app.main - INFO - Response status: 200
+2025-05-09 08:49:52,969 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:49:52,969 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:49:52,971 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:49:52,971 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:49:52,980 - app.main - INFO - Response status: 200
+2025-05-09 08:49:52,981 - app.main - INFO - Response status: 200
+2025-05-09 08:49:52,982 - app.main - INFO - Response status: 200
+2025-05-09 08:49:52,990 - app.main - INFO - Response status: 200
+2025-05-09 08:49:53,002 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/
+2025-05-09 08:49:53,003 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/
+2025-05-09 08:49:53,003 - app.main - INFO - Response status: 200
+2025-05-09 08:49:53,004 - app.main - INFO - Response status: 200
+2025-05-09 08:49:53,006 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:49:53,007 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:49:53,012 - app.main - INFO - Response status: 200
+2025-05-09 08:49:53,012 - app.main - INFO - Response status: 200
+2025-05-09 08:55:53,055 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 08:55:53,055 - app.main - INFO - Response status: 200
+2025-05-09 08:55:53,058 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:55:53,071 - app.main - INFO - Response status: 200
+2025-05-09 08:55:53,073 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:55:53,078 - app.main - INFO - Response status: 200
+2025-05-09 08:56:02,576 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:02,577 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:02,585 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:02,585 - app.main - INFO - Response status: 200
+2025-05-09 08:56:02,586 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:02,587 - app.main - INFO - Response status: 200
+2025-05-09 08:56:02,587 - app.main - INFO - Response status: 200
+2025-05-09 08:56:02,588 - app.main - INFO - Response status: 200
+2025-05-09 08:56:02,592 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:02,593 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:02,600 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE1A0200>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:02,601 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE1A2750>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:03,611 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:03,612 - app.main - INFO - Response status: 200
+2025-05-09 08:56:03,615 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:03,618 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE2E5970>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:03,626 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:03,627 - app.main - INFO - Response status: 200
+2025-05-09 08:56:03,629 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:03,632 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE2E5D30>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:05,635 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:05,635 - app.main - INFO - Response status: 200
+2025-05-09 08:56:05,637 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:05,640 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE2E5820>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:05,649 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:05,651 - app.main - INFO - Response status: 200
+2025-05-09 08:56:05,653 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:05,656 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE2E4F20>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:05,809 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:05,811 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:05,812 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:56:05,812 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:56:05,822 - app.main - INFO - Response status: 200
+2025-05-09 08:56:05,823 - app.main - INFO - Response status: 200
+2025-05-09 08:56:05,824 - app.main - INFO - Response status: 200
+2025-05-09 08:56:05,824 - app.main - INFO - Response status: 200
+2025-05-09 08:56:05,838 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:56:05,838 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:56:05,843 - app.main - INFO - Response status: 200
+2025-05-09 08:56:05,843 - app.main - INFO - Response status: 200
+2025-05-09 08:56:27,405 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/
+2025-05-09 08:56:27,406 - app.main - INFO - Response status: 200
+2025-05-09 08:56:27,408 - app.main - INFO - Request: POST http://localhost:8000/budgets/
+2025-05-09 08:56:27,414 - app.main - INFO - Response status: 422
+2025-05-09 08:56:29,103 - app.main - INFO - Request: POST http://localhost:8000/budgets/
+2025-05-09 08:56:29,107 - app.main - INFO - Response status: 422
+2025-05-09 08:56:52,962 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:56:52,967 - app.main - INFO - Response status: 200
+2025-05-09 08:56:52,970 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:52,971 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:56:52,972 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:52,975 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:56:52,979 - app.main - INFO - Response status: 200
+2025-05-09 08:56:52,980 - app.main - INFO - Response status: 200
+2025-05-09 08:56:52,982 - app.main - INFO - Response status: 200
+2025-05-09 08:56:52,983 - app.main - INFO - Response status: 200
+2025-05-09 08:56:52,986 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:56:52,989 - app.main - INFO - Response status: 200
+2025-05-09 08:56:55,163 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:56:55,166 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:55,167 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:55,167 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:56:55,176 - app.main - INFO - Response status: 200
+2025-05-09 08:56:55,176 - app.main - INFO - Response status: 200
+2025-05-09 08:56:55,177 - app.main - INFO - Response status: 200
+2025-05-09 08:56:55,177 - app.main - INFO - Response status: 200
+2025-05-09 08:56:55,186 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:56:55,189 - app.main - INFO - Response status: 200
+2025-05-09 08:56:55,198 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:56:55,201 - app.main - INFO - Response status: 200
+2025-05-09 08:56:56,395 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:56,395 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:56,400 - app.main - INFO - Response status: 200
+2025-05-09 08:56:56,400 - app.main - INFO - Response status: 200
+2025-05-09 08:56:57,140 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:57,140 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:57,144 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:57,145 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:57,146 - app.main - INFO - Response status: 200
+2025-05-09 08:56:57,146 - app.main - INFO - Response status: 200
+2025-05-09 08:56:57,149 - app.main - INFO - Response status: 200
+2025-05-09 08:56:57,150 - app.main - INFO - Response status: 200
+2025-05-09 08:56:57,156 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:57,157 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:57,162 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE334650>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:57,162 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE31D250>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:57,807 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:56:57,808 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:56:57,816 - app.main - INFO - Response status: 200
+2025-05-09 08:56:57,816 - app.main - INFO - Response status: 200
+2025-05-09 08:56:58,176 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:58,176 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:58,176 - app.main - INFO - Response status: 200
+2025-05-09 08:56:58,176 - app.main - INFO - Response status: 200
+2025-05-09 08:56:58,179 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:58,179 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:58,183 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE184860>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:58,184 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE1873B0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:58,611 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:58,612 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:56:58,617 - app.main - INFO - Response status: 200
+2025-05-09 08:56:58,617 - app.main - INFO - Response status: 200
+2025-05-09 08:56:58,619 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:58,620 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:58,620 - app.main - INFO - Response status: 200
+2025-05-09 08:56:58,621 - app.main - INFO - Response status: 200
+2025-05-09 08:56:58,628 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:58,630 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:58,634 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE303410>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:58,634 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE2E6B10>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:59,653 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:59,653 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:56:59,654 - app.main - INFO - Response status: 200
+2025-05-09 08:56:59,654 - app.main - INFO - Response status: 200
+2025-05-09 08:56:59,657 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:59,658 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:56:59,662 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE3346E0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:56:59,670 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000196AE335CA0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:57:00,153 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:57:00,161 - app.main - INFO - Response status: 200
+2025-05-09 08:58:48,680 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 08:58:48,681 - app.main - INFO - Response status: 200
+2025-05-09 08:58:48,827 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 08:58:48,847 - app.main - INFO - Response status: 200
+2025-05-09 08:59:11,230 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-09 08:59:11,454 - app.main - INFO - Response status: 200
+2025-05-09 08:59:11,483 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 08:59:11,485 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 08:59:11,485 - app.main - INFO - Response status: 200
+2025-05-09 08:59:11,485 - app.main - INFO - Response status: 200
+2025-05-09 08:59:11,494 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:59:11,495 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:59:11,504 - app.main - INFO - Response status: 200
+2025-05-09 08:59:11,518 - app.main - INFO - Response status: 200
+2025-05-09 08:59:13,587 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:59:13,591 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:59:13,593 - app.main - INFO - Response status: 200
+2025-05-09 08:59:13,595 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:59:13,596 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 08:59:13,597 - app.main - INFO - Response status: 200
+2025-05-09 08:59:13,598 - app.main - INFO - Response status: 200
+2025-05-09 08:59:13,603 - app.main - INFO - Response status: 200
+2025-05-09 08:59:13,607 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:59:13,607 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:13,609 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:13,613 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:59:13,619 - app.main - INFO - Response status: 200
+2025-05-09 08:59:13,620 - app.main - INFO - Response status: 200
+2025-05-09 08:59:13,622 - app.main - INFO - Response status: 200
+2025-05-09 08:59:13,630 - app.main - INFO - Response status: 200
+2025-05-09 08:59:34,042 - app.main - INFO - Request: POST http://localhost:8000/budgets/
+2025-05-09 08:59:34,046 - app.main - INFO - Response status: 422
+2025-05-09 08:59:39,109 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 08:59:39,110 - app.main - INFO - Response status: 200
+2025-05-09 08:59:39,228 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 08:59:39,228 - app.main - INFO - Response status: 200
+2025-05-09 08:59:41,212 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:41,218 - app.main - INFO - Response status: 200
+2025-05-09 08:59:41,224 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:41,226 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:59:41,228 - app.main - INFO - Response status: 200
+2025-05-09 08:59:41,229 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:59:41,231 - app.main - INFO - Response status: 200
+2025-05-09 08:59:41,234 - app.main - INFO - Response status: 200
+2025-05-09 08:59:41,236 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:59:41,238 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:59:41,242 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000220FEBADAF0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:59:41,255 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000220FEB7F350>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:59:42,258 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:59:42,259 - app.main - INFO - Response status: 200
+2025-05-09 08:59:42,261 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:59:42,264 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000220FEC7DA60>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:59:42,273 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:59:42,274 - app.main - INFO - Response status: 200
+2025-05-09 08:59:42,276 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:59:42,278 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000220FEC7EE10>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:59:42,330 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:59:42,331 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 08:59:42,339 - app.main - INFO - Response status: 200
+2025-05-09 08:59:42,340 - app.main - INFO - Response status: 200
+2025-05-09 08:59:43,711 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:43,711 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:43,716 - app.main - INFO - Response status: 200
+2025-05-09 08:59:43,716 - app.main - INFO - Response status: 200
+2025-05-09 08:59:44,286 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:59:44,287 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 08:59:44,287 - app.main - INFO - Response status: 200
+2025-05-09 08:59:44,287 - app.main - INFO - Response status: 200
+2025-05-09 08:59:44,290 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:59:44,290 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 08:59:44,294 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000220FEE28DD0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:59:44,295 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x00000220FEE28050>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 08:59:44,572 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:59:44,574 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:44,574 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:59:44,575 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:44,583 - app.main - INFO - Response status: 200
+2025-05-09 08:59:44,584 - app.main - INFO - Response status: 200
+2025-05-09 08:59:44,586 - app.main - INFO - Response status: 200
+2025-05-09 08:59:44,586 - app.main - INFO - Response status: 200
+2025-05-09 08:59:44,591 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:59:44,591 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:59:44,597 - app.main - INFO - Response status: 200
+2025-05-09 08:59:44,597 - app.main - INFO - Response status: 200
+2025-05-09 08:59:50,506 - app.main - INFO - Request: POST http://localhost:8000/budgets/
+2025-05-09 08:59:50,510 - app.main - INFO - Response status: 422
+2025-05-09 08:59:53,764 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:53,765 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:53,770 - app.main - INFO - Response status: 200
+2025-05-09 08:59:53,771 - app.main - INFO - Response status: 200
+2025-05-09 08:59:53,777 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 08:59:53,778 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 08:59:53,779 - app.main - INFO - Response status: 200
+2025-05-09 08:59:53,780 - app.main - INFO - Response status: 200
+2025-05-09 08:59:53,785 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:59:53,786 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:59:53,791 - app.main - INFO - Response status: 200
+2025-05-09 08:59:53,791 - app.main - INFO - Response status: 200
+2025-05-09 08:59:53,803 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:59:53,804 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:59:53,807 - app.main - INFO - Response status: 200
+2025-05-09 08:59:53,807 - app.main - INFO - Response status: 200
+2025-05-09 08:59:55,643 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:59:55,643 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:55,645 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 08:59:55,646 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 08:59:55,653 - app.main - INFO - Response status: 200
+2025-05-09 08:59:55,654 - app.main - INFO - Response status: 200
+2025-05-09 08:59:55,654 - app.main - INFO - Response status: 200
+2025-05-09 08:59:55,657 - app.main - INFO - Response status: 200
+2025-05-09 08:59:55,668 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:59:55,669 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 08:59:55,673 - app.main - INFO - Response status: 200
+2025-05-09 08:59:55,673 - app.main - INFO - Response status: 200
+2025-05-09 09:00:03,914 - app.main - INFO - Request: POST http://localhost:8000/budgets/
+2025-05-09 09:00:03,918 - app.main - INFO - Response status: 422
+2025-05-09 09:44:20,189 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 09:44:20,189 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 09:44:20,190 - app.main - INFO - Response status: 200
+2025-05-09 09:44:20,190 - app.main - INFO - Response status: 200
+2025-05-09 09:44:20,193 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 09:44:20,195 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 09:44:20,199 - app.main - INFO - Response status: 401
+2025-05-09 09:44:20,200 - app.main - INFO - Response status: 401
+2025-05-09 09:44:25,981 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 09:44:25,982 - app.main - INFO - Response status: 200
+2025-05-09 09:44:26,140 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 09:44:26,161 - app.main - INFO - Response status: 200
+2025-05-09 09:44:29,806 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 09:44:29,806 - app.main - INFO - Response status: 200
+2025-05-09 09:44:29,809 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:29,810 - app.main - INFO - Response status: 401
+2025-05-09 09:44:29,818 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:29,820 - app.main - INFO - Response status: 401
+2025-05-09 09:44:30,925 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 09:44:30,926 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 09:44:30,928 - app.main - INFO - Response status: 401
+2025-05-09 09:44:30,929 - app.main - INFO - Response status: 401
+2025-05-09 09:44:32,219 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:32,220 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:32,222 - app.main - INFO - Response status: 401
+2025-05-09 09:44:32,223 - app.main - INFO - Response status: 401
+2025-05-09 09:44:32,225 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 09:44:32,226 - app.main - INFO - Response status: 200
+2025-05-09 09:44:32,226 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 09:44:32,227 - app.main - INFO - Response status: 200
+2025-05-09 09:44:32,241 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 09:44:32,241 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 09:44:32,243 - app.main - INFO - Response status: 401
+2025-05-09 09:44:32,243 - app.main - INFO - Response status: 401
+2025-05-09 09:44:37,756 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-09 09:44:37,976 - app.main - INFO - Response status: 200
+2025-05-09 09:44:37,998 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 09:44:38,000 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 09:44:38,008 - app.main - INFO - Response status: 200
+2025-05-09 09:44:38,012 - app.main - INFO - Response status: 200
+2025-05-09 09:44:40,239 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:40,243 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:40,247 - app.main - INFO - Response status: 200
+2025-05-09 09:44:40,251 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 09:44:40,251 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 09:44:40,251 - app.main - INFO - Response status: 200
+2025-05-09 09:44:40,251 - app.main - INFO - Response status: 200
+2025-05-09 09:44:40,251 - app.main - INFO - Response status: 200
+2025-05-09 09:44:40,256 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 09:44:40,257 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 09:44:40,259 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001E475D589B0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 09:44:40,263 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001E475E07770>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 09:44:41,277 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 09:44:41,281 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 09:44:41,281 - app.main - INFO - Response status: 200
+2025-05-09 09:44:41,281 - app.main - INFO - Response status: 200
+2025-05-09 09:44:41,285 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 09:44:41,285 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 09:44:41,289 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001E475E39E80>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 09:44:41,289 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001E475E392E0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 09:44:41,693 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:41,694 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:41,695 - app.main - INFO - Response status: 200
+2025-05-09 09:44:41,699 - app.main - INFO - Response status: 200
+2025-05-09 09:44:42,843 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 09:44:42,843 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:42,847 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 09:44:42,847 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 09:44:42,855 - app.main - INFO - Response status: 200
+2025-05-09 09:44:42,855 - app.main - INFO - Response status: 200
+2025-05-09 09:44:42,855 - app.main - INFO - Response status: 200
+2025-05-09 09:44:42,859 - app.main - INFO - Response status: 200
+2025-05-09 09:44:42,867 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/
+2025-05-09 09:44:42,867 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/
+2025-05-09 09:44:42,867 - app.main - INFO - Response status: 200
+2025-05-09 09:44:42,867 - app.main - INFO - Response status: 200
+2025-05-09 09:44:42,871 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 09:44:42,871 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 09:44:42,875 - app.main - INFO - Response status: 200
+2025-05-09 09:44:42,875 - app.main - INFO - Response status: 200
+2025-05-09 09:44:43,304 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 09:44:43,304 - app.main - INFO - Response status: 200
+2025-05-09 09:44:43,304 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 09:44:43,308 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001E475FAAB40>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 09:44:43,315 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 09:44:43,315 - app.main - INFO - Response status: 200
+2025-05-09 09:44:43,319 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 09:44:43,319 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001E475FA8590>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 09:44:47,858 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/
+2025-05-09 09:44:47,859 - app.main - INFO - Response status: 200
+2025-05-09 09:44:47,861 - app.main - INFO - Request: POST http://localhost:8000/budgets/
+2025-05-09 09:44:47,871 - app.main - INFO - Response status: 200
+2025-05-09 09:44:47,875 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 09:44:47,879 - app.main - INFO - Response status: 200
+2025-05-09 09:44:47,887 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 09:44:47,891 - app.main - INFO - Response status: 200
+2025-05-09 09:44:55,712 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/1
+2025-05-09 09:44:55,712 - app.main - INFO - Response status: 200
+2025-05-09 09:44:55,712 - app.main - INFO - Request: DELETE http://localhost:8000/budgets/1
+2025-05-09 09:44:55,723 - app.main - INFO - Response status: 200
+2025-05-09 09:44:55,723 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 09:44:55,723 - app.main - INFO - Response status: 200
+2025-05-09 09:44:55,736 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 09:44:55,736 - app.main - INFO - Response status: 200
+2025-05-09 10:04:35,797 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 10:04:35,798 - app.main - INFO - Response status: 200
+2025-05-09 10:04:35,922 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 10:04:35,939 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,298 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 10:09:20,298 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 10:09:20,299 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,299 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,303 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:09:20,303 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:09:20,321 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,321 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,331 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:09:20,332 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:09:20,332 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,332 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,335 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:09:20,336 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:09:20,341 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,341 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,348 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:09:20,348 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:09:20,349 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,350 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,351 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:09:20,352 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:09:20,357 - app.main - INFO - Response status: 200
+2025-05-09 10:09:20,358 - app.main - INFO - Response status: 200
+2025-05-09 10:25:58,983 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 10:25:58,983 - app.main - INFO - Response status: 200
+2025-05-09 10:25:58,988 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:25:58,993 - app.main - INFO - Response status: 401
+2025-05-09 10:25:58,994 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:25:58,996 - app.main - INFO - Response status: 401
+2025-05-09 10:26:01,696 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 10:26:01,696 - app.main - INFO - Response status: 200
+2025-05-09 10:26:01,699 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:26:01,701 - app.main - INFO - Response status: 401
+2025-05-09 10:26:01,703 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:26:01,705 - app.main - INFO - Response status: 401
+2025-05-09 10:26:02,328 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:26:02,330 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 10:26:02,331 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:26:02,332 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 10:26:02,332 - app.main - INFO - Response status: 200
+2025-05-09 10:26:02,333 - app.main - INFO - Response status: 401
+2025-05-09 10:26:02,334 - app.main - INFO - Response status: 200
+2025-05-09 10:26:02,335 - app.main - INFO - Response status: 401
+2025-05-09 10:26:02,342 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:26:02,344 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:26:02,346 - app.main - INFO - Response status: 401
+2025-05-09 10:26:02,347 - app.main - INFO - Response status: 401
+2025-05-09 10:26:03,354 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:26:03,355 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:26:03,357 - app.main - INFO - Response status: 401
+2025-05-09 10:26:03,357 - app.main - INFO - Response status: 401
+2025-05-09 10:26:05,374 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:26:05,375 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:26:05,377 - app.main - INFO - Response status: 401
+2025-05-09 10:26:05,377 - app.main - INFO - Response status: 401
+2025-05-09 10:26:06,550 - app.main - INFO - Request: GET http://localhost:8000/docs
+2025-05-09 10:26:06,551 - app.main - INFO - Response status: 200
+2025-05-09 10:26:06,666 - app.main - INFO - Request: GET http://localhost:8000/openapi.json
+2025-05-09 10:26:06,684 - app.main - INFO - Response status: 200
+2025-05-09 10:26:08,529 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:26:08,529 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:26:08,531 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 10:26:08,532 - app.main - INFO - Response status: 200
+2025-05-09 10:26:08,532 - app.main - INFO - Response status: 401
+2025-05-09 10:26:08,533 - app.main - INFO - Response status: 401
+2025-05-09 10:26:08,535 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 10:26:08,536 - app.main - INFO - Response status: 401
+2025-05-09 10:26:08,547 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 10:26:08,549 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,798 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:26:09,800 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:26:09,801 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,801 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,804 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:09,805 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,807 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:26:09,808 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:26:09,808 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,810 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,811 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/budget-performance
+2025-05-09 10:26:09,813 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:26:09,814 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,816 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:09,816 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:26:09,817 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:26:09,818 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:26:09,818 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:09,819 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:09,820 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,820 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,820 - app.main - INFO - Request: GET http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:26:09,822 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,822 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,822 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,825 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:26:09,827 - app.main - INFO - Request: GET http://localhost:8000/reports/budget-performance
+2025-05-09 10:26:09,828 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,829 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,830 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/budget-performance
+2025-05-09 10:26:09,831 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:26:09,832 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:09,833 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:26:09,833 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,833 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:26:09,833 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:09,835 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,835 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,836 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,837 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,838 - app.main - INFO - Response status: 200
+2025-05-09 10:26:09,840 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:26:09,843 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,844 - app.main - INFO - Request: GET http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:26:09,846 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:09,847 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,847 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,850 - app.main - INFO - Request: GET http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:26:09,851 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,853 - app.main - INFO - Request: GET http://localhost:8000/reports/budget-performance
+2025-05-09 10:26:09,854 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:26:09,854 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,856 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,859 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:09,861 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,862 - app.main - INFO - Request: GET http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:26:09,864 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,864 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,866 - app.main - INFO - Response status: 401
+2025-05-09 10:26:09,867 - app.main - INFO - Response status: 401
+2025-05-09 10:26:19,898 - app.main - INFO - Request: POST http://localhost:8000/token
+2025-05-09 10:26:20,118 - app.main - INFO - Response status: 200
+2025-05-09 10:26:20,138 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:26:20,140 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:26:20,149 - app.main - INFO - Response status: 200
+2025-05-09 10:26:20,154 - app.main - INFO - Response status: 200
+2025-05-09 10:26:20,161 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:26:20,161 - app.main - INFO - Response status: 200
+2025-05-09 10:26:20,163 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:26:20,167 - app.main - INFO - Response status: 200
+2025-05-09 10:26:20,169 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:26:20,171 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:20,174 - app.main - INFO - Response status: 200
+2025-05-09 10:26:20,177 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,068 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 10:26:58,069 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-insights
+2025-05-09 10:26:58,070 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,071 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,076 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:26:58,077 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:26:58,096 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,096 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,104 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:26:58,105 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-01&end_date=2025-05-09
+2025-05-09 10:26:58,113 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,114 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,124 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:58,125 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:58,125 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,125 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,129 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:58,129 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:26:58,135 - app.main - INFO - Response status: 200
+2025-05-09 10:26:58,135 - app.main - INFO - Response status: 200
+2025-05-09 10:27:04,548 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 10:27:04,548 - app.main - INFO - Request: OPTIONS http://localhost:8000/categories/
+2025-05-09 10:27:04,549 - app.main - INFO - Response status: 200
+2025-05-09 10:27:04,549 - app.main - INFO - Response status: 200
+2025-05-09 10:27:04,562 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:27:04,562 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:27:04,567 - app.main - INFO - Response status: 200
+2025-05-09 10:27:04,567 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,530 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:27:05,531 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:27:05,533 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 10:27:05,533 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/status
+2025-05-09 10:27:05,535 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,535 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,539 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,540 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,541 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 10:27:05,542 - app.main - INFO - Request: GET http://localhost:8000/budgets/status
+2025-05-09 10:27:05,547 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,548 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,558 - app.main - INFO - Request: OPTIONS http://localhost:8000/budgets/
+2025-05-09 10:27:05,558 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,560 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 10:27:05,564 - app.main - INFO - Response status: 200
+2025-05-09 10:27:05,565 - app.main - INFO - Request: GET http://localhost:8000/budgets/
+2025-05-09 10:27:05,568 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,476 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:27:06,479 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:27:06,482 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:27:06,484 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,490 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-insights
+2025-05-09 10:27:06,491 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:27:06,495 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,495 - app.main - INFO - Request: GET http://localhost:8000/reports/monthly-spending?months=6
+2025-05-09 10:27:06,497 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:27:06,497 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:27:06,502 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:27:06,502 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:27:06,503 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/budget-performance
+2025-05-09 10:27:06,503 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:27:06,505 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,505 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,509 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,509 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,510 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,510 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,513 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,519 - app.main - INFO - Request: GET http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:27:06,522 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:27:06,523 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/budget-performance
+2025-05-09 10:27:06,525 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:27:06,526 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,526 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:27:06,527 - app.main - INFO - Request: OPTIONS http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:27:06,528 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,528 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,528 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,530 - app.main - INFO - Request: GET http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:27:06,531 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,533 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,534 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,540 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:27:06,542 - app.main - INFO - Request: GET http://localhost:8000/reports/budget-performance
+2025-05-09 10:27:06,544 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:27:06,546 - app.main - INFO - Response status: 500
+2025-05-09 10:27:06,547 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,550 - app.main - INFO - Response status: 500
+2025-05-09 10:27:06,552 - app.main - INFO - Request: GET http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:27:06,555 - app.main - INFO - Request: GET http://localhost:8000/reports/budget-performance
+2025-05-09 10:27:06,557 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,558 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,559 - app.main - INFO - Request: GET http://localhost:8000/reports/spending-by-category?start_date=2025-05-09&end_date=2025-05-09
+2025-05-09 10:27:06,560 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,565 - app.main - INFO - Request: GET http://localhost:8000/reports/transaction-trends?interval=monthly&timeframe=12
+2025-05-09 10:27:06,568 - app.main - INFO - Response status: 500
+2025-05-09 10:27:06,569 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,572 - app.main - INFO - Response status: 200
+2025-05-09 10:27:06,574 - app.main - INFO - Response status: 500
+2025-05-09 10:27:15,747 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:27:15,748 - app.main - INFO - Request: GET http://localhost:8000/categories/
+2025-05-09 10:27:15,751 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 10:27:15,751 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 10:27:15,753 - app.main - INFO - Response status: 200
+2025-05-09 10:27:15,754 - app.main - INFO - Response status: 200
+2025-05-09 10:27:15,757 - app.main - INFO - Response status: 200
+2025-05-09 10:27:15,759 - app.main - INFO - Response status: 200
+2025-05-09 10:27:15,768 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:27:15,768 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:27:15,774 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001EBCFAAB110>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 10:27:15,774 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001EBCFAA81D0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 10:27:16,790 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 10:27:16,790 - app.main - INFO - Response status: 200
+2025-05-09 10:27:16,790 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:27:16,790 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001EBCFB0B9E0>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 10:27:16,803 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 10:27:16,803 - app.main - INFO - Response status: 200
+2025-05-09 10:27:16,803 - app.main - INFO - Request: GET http://localhost:8000/transactions/
+2025-05-09 10:27:16,803 - app.main - ERROR - Request failed: 1 validation errors:
+  {'type': 'value_error', 'loc': ('response', 0), 'msg': 'Value error, Transaction date cannot be in the future', 'input': <app.models.transaction.Transaction object at 0x000001EBCFB0B200>, 'ctx': {'error': ValueError('Transaction date cannot be in the future')}}
+
+2025-05-09 10:27:18,802 - app.main - INFO - Request: OPTIONS http://localhost:8000/transactions/
+2025-05-09 10:27:18,802 - app.main - INFO - Response status: 200
